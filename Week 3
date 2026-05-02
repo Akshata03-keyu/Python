@@ -1,0 +1,25 @@
+fruits=["apple","banana","orange","cherry","strawberry"]
+print("Original list:",fruits)
+Original list:['apple', 'banana', 'orange', 'cherry', 'strawberry']
+
+#Access by index
+print("first fruit",fruits[0])
+first fruit apple
+
+#list comprehenision
+upper_fruits=[fruit.upper()for fruit in fruits]
+print("uppercase friuts:",upper_fruits)
+uppercase fruits: ['APPLE', 'BANANA', 'ORANGE', 'CHERRY', 'STRAWBERRY']
+
+///TUPLE EXAMPLE
+
+coordinates=(10.5,20.3,10.5)
+print("Tuple:",coordinates)
+print("First coordinate:",coordinates[0])
+Tuple:(10.5,20.3,10.5)
+First coordinate: 10.5
+
+///Tuple unpacking
+x,y,z=coordinates
+print(f"unpacked:x={x},{y},{z}")
+unpacked:x=10.5,y=20.3,z=10.5
